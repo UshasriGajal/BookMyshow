@@ -40,7 +40,66 @@
     margin-left: 440px;
 }
 #toggler-icon{
+
     margin-right: 10%;
     padding: 6px;
     margin-top: 8px;
+}
+
+@media only screen and (max-width:800px) {
+    .bookmyshow-img{
+        margin-left: 0px;
+    }
+    .search-container input[type=text] {
+       
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+        width: 200px;
+      }
+      #location-dropdown{
+        margin-left: 10px;
+      }
+    
+}
+@media only screen and (max-width:540px){
+    .bookmyshow-img{
+        display: none;
+    }
+    .search-container input[type=text] {
+       
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+        width: 200px;
+      }
+      .search-container{
+        margin-left: 0px;
+      }
+    #toggler-icon{
+        display: none;
+    }
+    #location-dropdown{
+        margin-left: 0px;
+    }
+    .search-container button {
+       
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-left: 0px !important;
+        background: #ddd;
+        font-size: 12px;
+        border: 1px solid rgb(255, 255, 255);
+        cursor: pointer;
+      }
+}
+
+@media only screen and (max-width:270px){
+    .search-container input[type=text] {
+       
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+        width: 110px;
+      }
 }
