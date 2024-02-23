@@ -1,0 +1,46 @@
+.nav-bar{
+    width: 100%;
+    background-color: aqua;
+    height: 55px;
+    display: flex;
+}
+.bookmyshow-img{
+    height: 40px;
+    width: 140px;
+    margin-left:140px ;
+    margin-top: 7.5px;
+}
+.search-container{
+    margin-left: 1%;
+}
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 400px;
+  }
+
+#location-dropdown{
+    height: 38px;
+    border:none;
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 440px;
+}
+#toggler-icon{
+    margin-right: 10%;
+    padding: 6px;
+    margin-top: 8px;
+}
