@@ -103,3 +103,106 @@
         width: 110px;
       }
 }
+
+.parent_div{
+  height: 390px;
+  width: 100%;
+  background-color: rgb(39, 36, 36);
+  padding: 2%;
+  display: flex;
+  
+}
+.child_div1{
+  
+ margin-left: 10%;
+  height:100%;
+  width: 16%;
+  background-color: rgb(0, 0, 0);
+}
+.child_div1 img{
+  height: 93%;
+  width: 100%;
+
+
+}
+.child_div2{
+
+  margin-left: 3%;
+  height:100%;
+  width: fit-content;
+ 
+
+}
+.child_div2 h1{
+  font-family: sans-serif;
+  color: white;
+  font-size: 40px;
+}
+.child_div2-p {
+  color: white;
+  font-size: 30px;
+  
+}
+.child_div2-p-span{
+ font-weight: 100 !important;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.ratings{
+
+  height: 76px;
+  padding: 2px;
+  width: 350px;
+  display: flex;
+  border-radius: 7px;
+  background-color: #3c3b3b;
+}
+.ratings p{
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.ratenow{
+  border: #ddd;
+  color:black;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  padding: 2px;
+  border-radius: 4px;
+  margin-top: 16px;
+  margin-left: 16px;
+  border-radius: 4px;
+}
+.lang{
+  margin-top: 18px;
+}
+.lang button{
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.timing{
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.book-tickets{
+  border: 1px rgb(228, 75, 75);
+  font-size: 16px;
+  height: 45px;
+  width:220px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(228, 75, 75);
+  cursor: pointer;
+}
+.child_div{
+  height: 4%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
