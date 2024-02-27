@@ -206,3 +206,150 @@
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#images{
+  border-radius: 10px;
+}
+.imgdiv{
+  height: 340px;
+  background-color: rgb(231, 230, 230);
+}
+.cart{
+  height: auto ;
+}
+#cartitems{
+  display: flex;
+  height: auto;
+  
+}
+.card-title{
+  font-size: 18px;
+}
+button{
+  cursor: pointer;
+}
+#Footer{
+  height: 300px;
+  /* border: 1px solid black; */
+}
+#listshow{
+  height: 80px;
+  display: flex;
+  /* border: 1px solid black; */
+  background-color: rgb(45, 39, 39);
+}
+#listshow>h6,p{
+  color: white;
+}
+#listshow>button{
+  float: right;
+  height: 45px;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+  border: 1px rgb(241, 78, 78);
+  background-color: rgb(241, 78, 78);
+}
+.but{
+  float: right;
+}
+#msg{
+  height: 220px;
+  background-color: rgb(53, 52, 52);
+}
+.show{
+  display: flex;
+}
+.line{
+  height: 0.5px;
+  
+  /* background-color: white; */
+  border: 1px solid rgb(93, 92, 92);
+}
+#icons{
+  display: flex;
+  justify-content:center;
+}
+.icons{
+  height: 60px;
+  /* width: 00px; */
+  display: flex;
+  /* justify-content:right; */
+  /* background-color: white; */
+}
+.item{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content:center;
+  background-color: rgb(93, 92, 92);
+}
+.matter{
+  display: flex;
+  justify-content:center;
+  font-size:10px;
+  color: rgb(93, 92, 92);
+}
+.mat{
+  /* background-color: white; */
+  width: 80%;
+  justify-content:center;
+  color: rgb(93, 92, 92);
+}
+.mat>p{
+  color: rgb(137, 135, 135);
+}
+@media screen and (max-width: 900px){
+  #listshow{
+      display: none;
+  }
+  #Footer{
+      height: 200px;
+      /* border: 1px solid black; */
+  }
+}
+@media screen and (max-width: 600px){
+  #Footer{
+      display: none;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .imgdiv{
+      height: 280px;
+      background-color: white;
+  }
+  .cart{
+      height: auto ;
+      overflow-x: auto;
+      position: relative;
+      scroll-behavior: smooth;
+  }
+  .cart::-webkit-scrollbar{
+      width:0;
+  }
+  .cartitems{
+      min-width: 22%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .imgdiv{
+      height: 180px;
+      background-color: white;
+  }
+}
+@media screen and (max-width: 576px){
+  .imgdiv{
+      height: 140px;
+      background-color: white;
+  }
+}
+@media screen and (max-width: 350px){
+  .imgdiv{
+      height: 100px;
+      background-color: white;
+  }
+}
