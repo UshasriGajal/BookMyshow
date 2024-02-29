@@ -6,5 +6,156 @@
       "password": "12345",
       "id": 1
     }
+  ],
+  "movies":[
+    {
+      "Name":"Ooru Peru Bhairavakona",
+      "Cast":[
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sundeep-kishan-35229-18-09-2017-02-43-20.jpg","Sandeep","Actor "],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/varsha-bollamma-1081169-20-04-2017-14-36-26.jpg","Varsha","Actor"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/kavya-thapar-1093441-15-09-2018-12-25-45.jpg","Kavya","Actor"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vennela-kishore-16481-1659598641.jpg","kishor","Actor"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/viva-harsha-1059109-24-03-2017-16-19-29.jpg","Harsha","Actor"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/brahmaji-7392-1670498255.jpg","Brahmaji","Actor"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/ravishankar-p.jpg","Ravi Shankar","Actor"]
+      ],
+      
+      "Crew":[
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vi-anand-1042886-24-03-2017-17-49-35.jpg","Vi Anand","Director"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/anil-sunkara-36029-24-03-2017-15-00-54.jpg","Anil sunkara","Producer"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/rajesh-danda-2017907-1649061525.jpg","Rajesh","Producer"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/shekar-chandra-1084007-1705650746.jpg","shekar","Musician"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/raj-thota-1091334-22-03-2018-11-54-56.jpg","Raj Thota","Cinematographer"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/chota-k-prasad-1094433-17-09-2018-12-16-41.jpg","Chota Prasad","Editor"],
+      ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/balaji-gutta-2023822-1669276393.jpg","Balaji","Co-producer"]
+      ],
+      
+      "Discription":"Ooru Peru Bhairavakona is a Telugu movie starring Sundeep Kishan, Varsha Bollamma, and Kavya Thapar in prominent roles. It is directed by Vi Anand....",
+      "About":"2h 16m • Adventure, Fantasy, Thriller • UA  • 16 Feb, 2024",
+      
+      "Movieurl":"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/ooru-peru-bhairavakona-et00357656-1681883459.jpg",
+      
+      "Votes":"(27.7K Votes)",
+      "ratings":"★8.6/10",
+      "lang":"Telugu"
+      },
+      {
+        "Name":"Eagle",
+        "Cast":[
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/ravi-teja-1848-1647947897.jpg","Ravi Teja","Actor"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/anupama-parameswaran-1063607-1670497994.jpg","Anupama","Actor"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/navdeep-8384-18-09-2017-03-47-36.jpg","Navdeep","Actor"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/srinivas-avasarala-25969-24-03-2017-17-49-24.jpg","Srinivas","Actor"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/kavya-thapar-1093441-15-09-2018-12-25-45.jpg","kavya","Actor"]
+        ],
+        
+        "Crew":[
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/karthik-gattamneni-1083755-20-06-2017-14-32-13.jpg","Karthik","Director, Writer, Cinematography"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/tg-vishwa-prasad-2007132-27-01-2020-03-35-13.jpg","Viswa Prasad","Producer"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/manibabu-karanam-2033233-1704193981.jpg","Manibabu","Writer"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/davzand-2033234-1704194081.jpg","Devzand","Musician"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/karm-chawla-1268932-17-06-2019-10-49-25.jpg","chawla","Cinematographer"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sujith-kumar-kolli-2024126-1670214741.jpg","Sujith","Executive Producer"],
+        ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vivek-kuchibhotla-2024125-1670213489.jpg","Vivek","Co-producer"]
+        ],
+        
+        "Discription":"Eagle is the story of a contract killer Sahadev Varma who falls in love with Rachana, and tries to redeem himself by working towards eradicating illegal arms from this world....",
+
+        "About":"2h 38m Action, Drama, Thriller UA 9 Feb, 2024",
+        
+        "Movieurl":"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/eagle-et00361924-1699259806.jpg",
+        
+        "Votes":"(50.3K Votes)",
+        "ratings":"★8.6/10",
+        "lang":"Telugu"
+        },
+        {
+          "Name":"Crakk - Jeetegaa Toh Jiyegaa",
+          "lang":"Hindi",
+          "Cast":[
+          ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vidyut-jamwal-30657-24-03-2017-13-55-31.jpg","Vidyut","Actor"],
+          ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/nora-fatehi-1049505-24-03-2017-14-05-17.jpg","Nora Fatehi","Actor"],
+          ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/arjun-rampal-225-24-03-2017-12-44-48.jpg","Arjun","Actor"],
+          ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/amy-jackson-18307-16-10-2018-12-26-15.jpg","Amy Jackson","Actor"]
+          ],
+          
+          "Crew":[
+          ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/aditya-datt-41-26-11-2019-02-52-59.jpg","Aditya Datt","Director", "Writer"],
+          ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/mithoon-sharma-1050754-24-03-2017-17-39-23.jpg","Vidyut","Producer"],
+          ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/mithoon-sharma-1050754-24-03-2017-17-39-23.jpg","Mithun Sharma","Musician"],
+          ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/tanishk-bagchi-1067219-24-03-2017-16-26-34.jpg","Tanshik","Musician"],
+          ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/mark-hamilton-2004766-1708499407.jpg","Mark Hamilton","Cinematographer"]
+          ],
+          
+          "Discription":"Siddharth (Vidyut Jammwal) will go to extreme lengths to fulfill his brother's dream as he enters the adrenaline-filled world of Maidaan where he competes against daredevil participants from across the world. Can Siddharth become the Ultimate Champion as he risks it all for his brother's dream?...",
+
+          "About":"2h 36m  • Action, Thriller •  UA  • 23 Feb, 2024",
+          
+          "Movieurl":"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/crakk-et00379050-1707477500.jpg",
+          
+          "Votes":" (26.7K Votes)",
+          "ratings":"★7.7/10"
+          },
+          {
+            "Name":"ambajipeta marriage band",
+            
+            "Cast":[
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/suhas-6328-27-07-2021-08-32-07.jpg","Suhas","Actor"],
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/shivani-nagaram-2033741-1705650388.jpg","Shivani","Actor"],
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/goparaju-ramana-40854-22-10-2021-05-41-48.jpg","Goparaju","Actor"]
+            ],
+            
+            "Crew":[
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/dushyanth-katikaneni-2033742-1705650473.jpg","Dushyanth","Director"],
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/dheeraj-mogilneni-2033743-1705650552.jpg","Dheeraj","Producer"],
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/bunny-vas-2014664-1705650608.jpg","Bunny Vas","Producer"],
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/shekar-chandra-1084007-1705650746.jpg","Shekar chandra","Musician"],
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/wajid-baig-2033744-1705650812.jpg","Wajid Baig","Cinematographer"],
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/kodati-pavan-kalyan-2024410-1672837125.jpg","Kodati Pavan","Editor"],
+            ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/venkatesh-maha-1094850-1705650677.jpg","Venkatesh Maha","Presenter"]
+            ],
+            
+            "Discription":"Set in the early 2000s, in the quaint little village of Ambajipeta, twins Mallikarjuna Rao & Padmavati are leading happy-go-lucky lives. On their 25th birthday, an unexpected series of events turns their lives upside down....",
+
+            "About":"2h 12m • Comedy, Drama • UA • 2 Feb, 2024",
+            
+            "Movieurl":"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/ambajipeta-marriage-band-et00384232-1705666298.jpg",
+            
+            "Votes":"(19.9K Votes)",
+            "ratings":"★8.9/10",
+           "lang":"Telugu"
+            },
+            {
+              "Name":"Hanu-Man",
+              
+              "Cast":[
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/teja-sajja-1269445-1704888435.jpg","Teja Sajja","as Hanumanthu"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/varalaxmi-sarathkumar-32998-16-10-2018-01-55-44.jpg","Varalaxmi","as Anjamma"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/amritha-aiyer-2007988-19-03-2020-12-58-29.jpg","Amritha","as Meenakshi"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vinay-rai-13262-24-03-2017-13-59-03.jpg","Vinay Rai","as Micheal"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vennela-kishore-16481-1659598641.jpg","vennela kishor","Actor"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/getup-srinu-1087874-1649141722.jpg","Getup Srinu","Actor"]
+              ],
+              
+              "Crew":[
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/prasanth-varma-iein087045-13-02-2018-09-27-26.jpg","Prashanth varma","Director"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/k-niranjan-reddy-2013594-08-07-2021-09-47-54.jpg","Niranjan Reddy","Producer"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/hari-gowra-1095960-03-10-2018-03-42-42.jpg","Hari Gowra","Musician"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/krishna-saurabh-2030723-1694431019.jpg","Krishna","Musician"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/dasaradhi-sivendra-iein083005-28-12-2018-11-24-02.jpg","Dasaradhi","Cinematographer"],
+              ["https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sai-babu-talari-2029494-1689586074.jpg","Sai babu","Editor"]
+              ],
+              
+              "Discription":"Hanumanthu gets the powers of Hanuman in a distant village and fights for Anjanadri.",
+              
+              "About":"2h 38m Action, • Adventure, Fantasy • UA • 12 Jan, 2024",
+              
+              "Movieurl":"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/hanu-man-et00311673-1704954533.jpg",
+              
+              "Votes":"(442.9K Votes)",
+              "ratings":"★9.4/10",
+              "lang":"Telugu"
+              }
+
   ]
 }
