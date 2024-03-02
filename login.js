@@ -104,6 +104,7 @@ fetch("http://localhost:3000/poster")
         var button=document.createElement("button")
         button.setAttribute("class","butclass")
         button.append(divimg,matdiv)
+        button.addEventListener('click',movieDetails)
         cartimg.append(button)
         // h5.append(moviename)
         // genre.append(genre)
@@ -112,3 +113,9 @@ fetch("http://localhost:3000/poster")
     // document.body.append(cartimg)
     // image.src+=obj.result[n].posterURLs[780]
 })
+
+ function movieDetails(){
+    var details=document.getElementById("bodyMatter")
+    document.getElementById("bodyMatter").innerHTML=" "
+    console.log("yes")
+ }
