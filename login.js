@@ -1,9 +1,8 @@
-
-document.getElementById("movie").onclick = myfunction()
-function myfunction(){
-    // window.location.href="Display.html"
-    console.log("yes")
-}
+// document.getElementById("movie").onclick = myfunction()
+// function myfunction(){
+//     // window.location.href="Display.html"
+//     console.log("yes")
+// }
 
 function fetching(){
     var fetchcount=0
@@ -32,61 +31,6 @@ function fetching(){
 
 var count=0
 
-// function post(){
-//     var UserName=document.getElementById('uName').value
-// var mail = document.getElementById('mail').value;
-// var password = document.getElementById('password').value;
-//     fetch("http://localhost:3000/user")
-//       .then(response => response.json())
-//       .then(data =>{
-//         // console.log(data)
-//         // if(data.)
-//         // console.log(data[1])
-//         for(var i=0;i<data.length;i++){
-            
-//             if(data[i].mail===mail){
-//                 count++
-//                 console.log(data[i].mail)
-//                 alert("Email already exit,Please enter new one !!")
-//                 break
-//             }
-//             // else{
-//             //     count++
-//             // }
-//             // console.log(data[i].mail)
-            
-//             // if(UserName<6){
-//             //     alert("Please enter atleast 6 characters")
-//             //     break
-//             // }
-//             // break
-//         }
-//         if(count===0){
-//             console.log("yes")
-//             fetch("http://localhost:3000/user",{
-        
-//             method: "POST",
-//             body: JSON.stringify({UserName,mail,password}),
-//             headers: {
-//                 "Content-type": "application/json"
-//             },
-//             })
-//             .then(response => response.json())
-//             .then(data =>{
-//                 alert("You are signed-up successfully")
-//                 // localStorage.setItem("customerUsername", person.username)
-//                 window.location.href = "login.html"
-//             })
-//             // break
-//         }
-//         // console.log(data)
-
-    
-//             } );
-    
-    
-
-// }
 
 function post(){
     var UserName=document.getElementById('uName').value
@@ -124,7 +68,47 @@ var count=0
         }
     
             } );
-    
-    
-
 }
+
+// function display(){
+//     var div=document.createElement("div")
+//     div.setAttribute("class","rundiv")
+//     var divimg=document.getElementById("divimg")
+//     divimg.append(div)
+//     document.body.append(divimg)
+//     console.log("yes")
+// }
+fetch("http://localhost:3000/poster")
+.then(response=>response.json())
+.then(data=>{
+    for(var i=0;i<data.length;i++){
+        console.log(data[i].MovieImg)
+        console.log(data[i].movieName)
+        console.log(data[i].genre)
+        divimg=document.createElement("img")
+        divimg.setAttribute("class","cartimg")
+        divimg.src+=data[i].MovieImg
+
+        var moviename=document.createElement("h5")
+        moviename.innerText+=data[i].movieName
+        moviename.setAttribute("class","namefont")
+        console.log(moviename)
+        var genre=document.createElement("h6")
+        genre.innerText+=data[i].genre
+        genre.setAttribute("class","genrefont")
+        console.log(genre)
+        var matdiv=document.createElement("div")
+        matdiv.setAttribute("class","imgmatter")
+        matdiv.append(moviename,genre)
+        cartimg=document.getElementById("item"+i)
+        var button=document.createElement("button")
+        button.setAttribute("class","butclass")
+        button.append(divimg,matdiv)
+        cartimg.append(button)
+        // h5.append(moviename)
+        // genre.append(genre)
+    }
+    
+    // document.body.append(cartimg)
+    // image.src+=obj.result[n].posterURLs[780]
+})
