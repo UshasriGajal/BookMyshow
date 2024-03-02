@@ -451,6 +451,340 @@ html,body{
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.cast-crew{
+  margin-left: 10%;
+  margin-right: 30%;
+  border: 1px solid rgb(255, 255, 255);
+}
+.cast-crew h4{
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.cast-crew p{
+  font-family: sans-serif;
+  color: #3c3b3b;
+}
+.cast-crew hr{
+  height: 1px;
+  background-color: rgb(228, 228, 228);
+  border: none;
+}
+
+.container{
+  display: flex;
+  
+  background-color: rgb(255, 255, 255);
+  height: 130px;
+}
+
+.scrollable-div{
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  display: flex;
+  scrollbar-width: none;
+ 
+  align-items: center;
+  position: relative;
+ 
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  
+
+
+}
+.horizontal-scroll .btn-scroll{
+  background-color: #3c3b3b;
+  color: white;
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 50%;
+  margin: 0 5px;
+  z-index: 1;
+  cursor: pointer;
+}
+.cast-circle p{
+  color: black;
+}
+
+
+
+
+.cast-container{
+display: flex;
+flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  left: 0;
+  transform: 0.5s all ease-out;
+
+}
+.cast-container1{
+  display: flex;
+  flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+     position: absolute;
+     left: 0;
+     transform: 0.5s all ease-out;
+  
+ }
+.cast-circle{
+  
+  width: 120px;
+  height: 180px;
+  margin: 5px 17px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+ 
+
+
+
+}
+
+.button-container{
+  width: 60%;
+ justify-content: space-between;
+position: absolute;
+
+ 
+  box-sizing: border-box;
+display: flex;
+  top:0;
+  position: fixed;
+  background-attachment:fixed ;
+
+  
+}
+.div-scrolling{
+  display: flex;
+  
+}
+.div-scrolling button{
+  background-color: #807c7c;
+  color: white;
+  padding: 5px 8px;
+  position: absolute;
+  border: 0;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+ margin-top: 50px;
+  z-index: 1;
+  cursor: pointer;
+  align-self: flex-start;
+
+  position: sticky !important;
+  
+}
+
+.cast-circle img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.child_div2-mobile{
+  display: none;
+}
+.bottom{
+  display: none;
+}
+
+@media only screen and (max-width:679px){
+  .parent_div{
+      height: 400px;
+      background-color: rgb(255, 255, 255);
+      width: 90%;
+      margin-left: 1%;
+      margin-right: 1%;
+  }
+  .timing{
+      color: black;
+      font-size: 14px;
+  }
+  p{
+      color: black;
+  }
+  .child_div2{
+      display: none;
+  }
+  .child_div{
+      height: 10% !important;
+      width: 100%;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .child_div1{
+      margin-left: 1%;
+      width: 100%;
+      height: 30%;
+     
+      margin-right: 1%;
+      
+  }
+  .parent_div{
+      display: grid;
+  }
+  .child_div2-mobile{
+      display: block;
+      color: white;
+  }
+  .ratings{
+      color: black;
+      height: 19%;
+      padding: 2px;
+      width: 98%;
+      display: flex;
+      border-radius: 7px;
+      background-color: #cac7c7;
+      margin-right: 1%;
+  }
+  .ratings p{
+      color: black;
+  }
+  .lang button{
+      font-family: sans-serif;
+      font-size: 16px;
+      background-color: #d1cdcd;
+      border: none;
+  }
+ 
+  
+ 
+  .ratenow{
+      border:2px solid #bd2424;
+      color:#bd2424;
+      height: 25px;
+      width: 70px;
+      font-size: 13px;
+      padding: 2px;
+      border-radius: 4px;
+      margin-top: 2%;
+     
+      border-radius: 4px;
+      position: relative;
+  right: 0;
+      
+  }
+  .child_div{
+      height: 8%;
+      font-size: 15px;
+  }
+  .cast-crew{
+      margin-left: 5%;
+      margin-right: 0%;
+      border: 1px solid rgb(255, 255, 255);
+  }
+  .cast-circle img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+  }
+  .cast-circle{
+  
+      width: 100px;
+      height: 180px;
+      margin: 5px 5px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+     
+  
+  
+  
+  }
+  .bottom{
+      display: block;
+      position: fixed;
+      border:1px solid #dbdbdb;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ffffff;
+      padding: 10px 0;
+      text-align: center;
+      z-index: 999; /* Ensure the bar stays on top of other content */
+  }
+  
+  .bottom button {
+      padding: 10px 20px;
+      background-color: #c52d48;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      width: 94%;
+      cursor: pointer;
+      margin-left: 3%;
+      margin-right: 3%;
+      height: 35px;
+  }
+  .horizontal-scroll{
+      width: 100%;
+      height: 180px;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      overflow:scroll;
+  }
+  .scrollable-div{
+      width: 90%;
+      height: fit-content;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      display: flex;
+     
+     
+      align-items: center;
+      position: relative;
+     
+      overflow: scroll;
+      white-space: nowrap;
+  
+  
+  }
+  .div-scrolling button{
+      display: none;
+  }
+  
+  
+  
+  
+  
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #images{
   border-radius: 10px;
 }
