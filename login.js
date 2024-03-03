@@ -104,6 +104,7 @@ fetch("http://localhost:3000/poster")
         cartimg=document.getElementById("item"+i)
         var button=document.createElement("button")
         button.setAttribute("class","butclass")
+        button.setAttribute("id","movie_"+i)
         button.append(divimg,matdiv)
         button.addEventListener('click',movieDetails)
         cartimg.append(button)
@@ -115,15 +116,15 @@ fetch("http://localhost:3000/poster")
     // image.src+=obj.result[n].posterURLs[780]
 })
 
- function movieDetails1(){
+//  function movieDetails1(){
     
-    var namemovie = document.getElementById("getname").textContent
-    console.log(namemovie)
-    var details=document.getElementById("bodyMatter")
-    document.getElementById("bodyMatter").innerHTML=" "
-    console.log("yes")
+//     var namemovie = document.getElementById("getname").textContent
+//     console.log(namemovie)
+//     var details=document.getElementById("bodyMatter")
+//     document.getElementById("bodyMatter").innerHTML=" "
+//     console.log("yes")
 
- }
+//  }
 
 
 
@@ -137,20 +138,28 @@ fetch("http://localhost:3000/poster")
  
 function movieDetails()
 {
-    console.log("not")
-    // var namemovie = document.getElementById("getname").textContent
-    // console.log(namemovie)
+   var ele = document.activeElement.getAttribute("id")
+   Id = ele.split("_")[1]
+   console.log(Id)
+   fetch("http://localhost:3000/poster")
+   .then(response => response.json())
+   .then(data => {
+    console.log(data[Id].movieName)
+    var m_n = data[Id].movieName
+    sessionStorage.setItem("moviename",m_n)
+})
     var details=document.getElementById("bodyMatter")
     details.innerText = " "
     //document.getElementById("bodyMatter").innerHTML=" "
+    //console.log(sessionStorage.getItem("moviename"))
      fetch("http://localhost:3000/movies")
      .then(response => response.json())
-    
+  
      .then(data =>{
         //var name1 = "Eagel"
         for(var i = 0;i < 5;i++)
         {
-            if(data[i].Name == "Crakk - Jeetegaa Toh Jiyegaa")
+            if(data[i].Name == sessionStorage.getItem("moviename"))
             {
                 var main_data = data[i]
                 console.log(main_data)
