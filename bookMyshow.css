@@ -127,16 +127,16 @@ html,body{
 }
 @media screen and (min-width: 1024px) {
   .bookmyshow-img {
-      margin-left: 10%; /* Adjust for larger screens */
+      margin-left: 5%; /* Adjust for larger screens */
   }
 
   .search-container input[type=text] {
     
-      max-width: 400px; /* Limit maximum width */
+      max-width: 300px; /* Limit maximum width */
   }
 
   #location-dropdown {
-      margin-left: 25%; /* Adjust for larger screens */
+      margin-left: 20%; /* Adjust for larger screens */
   }
 
   #toggler-icon {
